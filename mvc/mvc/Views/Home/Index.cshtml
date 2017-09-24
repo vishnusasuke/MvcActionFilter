@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model mvc.Models.Employee
+
+<div class="row">
+    <div class="col-md-4">
+        @Html.DisplayName("First Name: ")
+        @Model.firstname
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-md-4">
+        @Html.DisplayName("Last Name: ")
+        @Model.lastname
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        @Html.DisplayName("Address: ")
+        @Model.address
+    </div>
+</div>
